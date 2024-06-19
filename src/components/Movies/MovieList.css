@@ -1,0 +1,48 @@
+.movieImageHorizontal {
+  transition: transform 0.3s;
+
+  height: 120px;
+}
+.movieImage {
+  height: 250px;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+.movieImgContainer {
+  width: fit-content;
+  height: calc(fit-content + 100px);
+  overflow: hidden;
+
+  padding: 0 8px;
+}
+
+.movieListContent {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+.movieImgContainer img:hover {
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  transform: scale(1.1);
+}
+
+.movieTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 20px;
+  font-family: Helvetica;
+}
+
+.movieList > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.movieList {
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+}
+.detailHeight {
+  height: 700px;
+}

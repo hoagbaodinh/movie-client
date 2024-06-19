@@ -1,0 +1,21 @@
+.resultMovieList > .row {
+  flex-wrap: wrap !important;
+}
+
+.movieListContent {
+  /* justify-content: center; */
+  padding-left: 20px;
+}
+
+.movieImgContainer {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.detailSearchHeight {
+  height: 550px;
+}
+
+.resultMovieDetailContainer {
+  top: 100px !important;
+}
